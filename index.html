@@ -5,34 +5,23 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Liv's Portfolio</title>
     </head>
-    <body>
 
-    <!-- navigation-->
     <header>
-        <h1>Liv Meier</h1>
-        <nav>
-        <ul>
-            <li>
-                <a href="#about-me">About Me</a>
-            </li>
-            <li>
-                <a href="#my-work">My Work</a>
-            </li>
-            <li>
-                <a href="#contact-me">Contact Me</a>
-            </li>
-        </ul>
-    </nav>
-    
-    <!--hero image-->
     <div class="hero-image">
-        <div class="hero-text">
-          <h1>I am Liv Meier</h1>
-          <p>And I'm Becoming a Web Developer</p>
+        <div class="background">
+        <h1>Liv Meier</h1>
         </div>
-      </div>
+    </div>
     </header>
 
+    <!-- navigation-->
+    <nav class="nav">
+        <a href="#about-me">About Me</a>
+        <a href="#my-work">My Work</a>
+        <a href="#contact-me">Contact Me</a>
+    </nav>
+
+    <body style="background-color:lightyellow;">
     <!--"About Me" section-->
     <section id="about-me" class="intro">
         <div class="flex-row">
@@ -46,15 +35,60 @@
     </section>
 
     <!--"My Work" section-->
-    <section id="my-work" class="intro">
-        <h2>My Work</h2>
-    </section>
+    <section id="my-work" class="work-section">
+        <h2 class="section-title">My Work</h2>
+        <article class="surf-box">
+            <figcaption>
+                <h2>Surf Report</h2>
+                <img src="placeholder" alt="abc">
+                <p> MERN Stack</p>
+            </figcaption>
+        </article>
 
+        <div class="boxes">
+            <div class="led-calculator">
+                <div class="led-wall">
+                    <figcaption>
+                        <h2>LED Wall</h2>
+                        <img src="placeholder" alt="abc">
+                        <p>Node/Iot</p>
+                    </figcaption>
+                </div>
+
+                <div class="calculator">
+                    <figcaption>
+                        <h2>Calculator</h2>
+                        <img src="placeholder" alt="abc">
+                        <p>React/Javascript/CSS</p>
+                    </figcaption>
+                </div>
+            </div>
+
+            <div class="pastel-runbuddy">
+                <div class="pastel-puzzles">
+                    <figcaption>
+                        <h2>Pastel Puzzles</h2>
+                        <img src="placeholder" alt="abc">
+                        <p>MERN Stack</p>
+                    </figcaption>
+                </div>
+
+                <div class="run-buddy">
+                    <figcaption>
+                        <h2>Run Buddy</h2>
+                        <img src="placeholder" alt="abc">
+                        <p>HTML/CSS</p>
+                    </figcaption>
+                </div>
+            </div>
+        </div>
+    </section>
+    </body>
      <!--"Contact Me" section-->
-     <section id="contact-me" class="intro">
+     <footer>
+     <section id="contact-me" class="contact-section">
          <h2>Contact Me</h2>
         <ul>
-            <!-- List item element-->
             <li>
                 <a href="tel:555-555-555">555-555-555</a>
             </li>
@@ -66,4 +100,5 @@
             </li>
         </ul>
      </section>
+    </footer>
     
