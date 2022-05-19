@@ -14,10 +14,15 @@ body {
     font-family: Helvetica, Arial, sans-serif;
 }
 
-.topnav {
+nav {
     background-color: #fddd5c;
     overflow: hidden;
 }
+
+nav a:hover {
+    background-color: var(--tertiary-color);
+    color: white;
+  }
 
 header {
     padding: 20px 35px;
@@ -41,6 +46,15 @@ header h1 {
 
 header nav {
     margin: 7px 0;
+}
+
+h2 {
+    color: var(--tertiary-color);
+    position: left;
+}
+
+h3 {
+    color: var(--secondary-color);
 }
 
 header nav ul {
@@ -106,6 +120,22 @@ nav a {
     flex-direction: column;
   }
 
+section {
+    padding: 60px;
+}
+
+.intro, .work-section, .led-calculator, .pastel-runbuddy {
+    text-align: center;
+  }
+
+.led-calculator, .pastel-runbuddy {
+    display: flex;
+    flex-direction: row;
+    width: 100px;
+    margin: 0 -5px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
 footer {
     background: var(--primary-color);
