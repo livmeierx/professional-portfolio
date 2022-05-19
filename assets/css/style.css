@@ -144,20 +144,43 @@ section {
     padding: 30px;
 }
 
-.intro, .work-section, .led-calculator, .pastel-runbuddy {
-    text-align: center;
-  }
+/*--container styling--*/
 
-.led-calculator, .pastel-runbuddy {
-    width: 100%;
-}
-
-.flex-container {
+.container-1 {
     display: flex;
-    flex: 50%;
-    box-shadow: 0 0 0 1px;
-    margin-bottom: 10px;
+    justify-content: center;
+    flex-direction: row;
 }
+
+.container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-3 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container-1 .work-section {
+    border: 10px var(--tertiary-color) solid;
+    padding: 10px;
+}
+
+.container-2 .led-calculator, .container-3 .pastel-runbuddy {
+    border: 10px var(--tertiary-color) solid;
+    padding: 10px;
+}
+
+/* .led-calculator .led-wall .calculator-item .run-buddy {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+} */
 
 footer {
     background: var(--primary-color);
