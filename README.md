@@ -7,3 +7,6 @@ This portfolio is intended to showcase all completed projects (including links),
 # Contributers
 Liv Meier (livmeier$)
 
+![screenshot](./assets/images/screenshot.png)
+
+Live site - https://livmeierx.github.io/professional-portfolio/ 
