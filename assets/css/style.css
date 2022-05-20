@@ -56,16 +56,18 @@ h2 {
 
 h3 {
     color: var(--secondary-color);
+    padding: 10px 20px 20px 0;
+    font-size: 35px;
 }
 
 img {
     width: 400px;
     height: auto;
-    border: 20px, solid, var(--tertiary-color);
 }
 
 p {
     color: var(--secondary-color);
+    padding: 5px 10px 10px 0px;
 }
 
 .hero-image p {
@@ -146,42 +148,25 @@ section {
 
 /*--container styling--*/
 
-.container-1 {
+.container-1, .container-2, .container-3 {
     display: flex;
     justify-content: center;
     flex-direction: row;
-}
-
-.container-2 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-
-.container-3 {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
+    flex:1;
+    flex-wrap: wrap;
+    padding: 20px 20px 5px 10px;
 }
 
 .container-1 .work-section {
-    border: 10px var(--tertiary-color) solid;
     padding: 10px;
 }
 
 .container-2 .led-calculator, .container-3 .pastel-runbuddy {
-    border: 10px var(--tertiary-color) solid;
     padding: 10px;
+    flex-direction: row;
 }
 
-/* .led-calculator .led-wall .calculator-item .run-buddy {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    align-items: center;
-} */
-
+/* footer styling */
 footer {
     background: var(--primary-color);
     width: 100%;
@@ -204,6 +189,6 @@ footer div {
 footer a {
     color: white;
     text-align: center;
-    padding: 10px 20px 20px 0;
+    padding: 30px 20px 5px 10px;
     font-size: 30px;
 }
