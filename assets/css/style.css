@@ -97,7 +97,7 @@ header nav ul li a {
 
 .hero-image {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     height: 65vh;
     width: 100vw;
     position: relative;
@@ -107,7 +107,6 @@ header nav ul li a {
     background-attachment: fixed;
     align-self: center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     align-items: center;
     justify-content: center;
 }
@@ -195,3 +194,10 @@ footer h2 {
 footer div {
     float: right;
 }
+
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    .hero-image {
+        width: 100%;
+      }
+  }
